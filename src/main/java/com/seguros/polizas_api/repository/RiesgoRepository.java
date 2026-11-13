@@ -1,4 +1,12 @@
 package com.seguros.polizas_api.repository;
 
-public class RiesgoRepository {
+import com.seguros.polizas_api.entity.Riesgo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface RiesgoRepository extends JpaRepository<Riesgo, Long> {
+
+    List<Riesgo> findByPolizaId(Long PolizaId);
+
 }

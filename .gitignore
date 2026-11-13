@@ -1,6 +1,5 @@
 ### JAVA / SPRING BOOT / MAVEN ###
 
-
 # Archivos compilados
 target/
 *.class
