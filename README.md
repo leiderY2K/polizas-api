@@ -6,7 +6,7 @@ El proyecto implementa un caso técnico simplificado, con persistencia en memori
 
 ## Tecnologías utilizadas
 
-- Java 17
+- Java 21
 - Spring Boot 4.1.2
 - Spring Web MVC
 - Spring Data JPA / Hibernate
